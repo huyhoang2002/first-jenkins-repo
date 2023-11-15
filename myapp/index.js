@@ -4,7 +4,7 @@ const app = express()
 app.get("/", (req, res) => {
   res.json({
     success: true,
-    message: "Hello world"
+    message: "Hello world 1234"
   })
 })
 
