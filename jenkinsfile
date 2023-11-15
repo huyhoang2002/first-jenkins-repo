@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-              git https://github.com/huyhoang2002/first-jenkins-repo.git
+              sh 'git clone https://github.com/huyhoang2002/first-jenkins-repo.git'
             }
         }
     }
